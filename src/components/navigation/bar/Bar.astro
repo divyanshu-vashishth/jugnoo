@@ -363,16 +363,19 @@ function createNavItemData(item, level, parentGroupId) {
         white-space: nowrap;
 
         &:hover {
-          background: var(--color-state-hover);
-          color: var(--color-text-strong);
+          background: transparent !important;
+          color: var(--color-text-strong) !important;
+          text-decoration-line: underline !important;
+          text-decoration-style: solid !important;
+          text-decoration-color: var(--color-text-strong) !important;
+          text-decoration-thickness: 2px !important;
+          text-underline-offset: 4px !important;
         }
       }
 
       .nav-item > a[aria-current="page"],
       .nav-item > .nav-item-trigger[aria-current="page"] {
-        text-decoration: underline dotted;
-        text-decoration-color: var(--color-text-muted);
-        text-underline-offset: 3px;
+        text-decoration: none;
       }
 
       .nav-item-trigger {

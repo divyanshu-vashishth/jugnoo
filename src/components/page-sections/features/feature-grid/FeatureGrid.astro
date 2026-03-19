@@ -61,10 +61,11 @@ const {
     data-children-prop="features"
   >
     {
-      features.map((feature: FeatureProps) => (
+      features.map((feature: FeatureProps, i: number) => (
         <FeatureItem
           data-id="page-sections/features/feature-grid/feature-item"
           data-editable="array-item"
+          stepNumber={(i + 1).toString()}
           {...feature}
         />
       ))

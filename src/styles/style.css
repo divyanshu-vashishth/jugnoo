@@ -5,3 +5,40 @@
 @import "_reset.css";
 @import "_base.css";
 @import "_utils.css";
+
+/* Brutalist Aesthetics Overrides */
+.button .button-inner, 
+.card .card-inner,
+.media-container {
+  border: 2px solid var(--color-border-strong) !important;
+  border-radius: 0 !important; /* Hard edges */
+  box-shadow: 6px 6px 0 var(--color-brand) !important;
+  transition: transform 0.1s ease, box-shadow 0.1s ease !important;
+}
+
+/* Ensure internal components don't double up on borders */
+.button .button-inner img, 
+.card .card-inner img, 
+.card .card-inner svg {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Navigation logo should not have brutalist borders */
+.main-nav-logo {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.button:hover .button-inner, 
+.card:hover .card-inner,
+.media-container:hover {
+  box-shadow: 2px 2px 0 var(--color-brand) !important;
+  transform: translate(4px, 4px) !important;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800 !important;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}

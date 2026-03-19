@@ -1,6 +1,5 @@
 ---
 import Heading from "@core-elements/heading/Heading.astro";
-import Icon from "@core-elements/icon/Icon.astro";
 import Text from "@core-elements/text/Text.astro";
 import Card from "@wrappers/card/Card.astro";
 import GridItem from "@wrappers/grid/GridItem.astro";
@@ -8,9 +7,7 @@ import GridItem from "@wrappers/grid/GridItem.astro";
 const {
   title = "",
   description = "",
-  iconName = "",
-  iconColor = "default",
-  iconBackground = true,
+  stepNumber = "",
   class: className,
   useDefaultEditableBinding: _useDefaultEditableBinding = false,
   _component,
@@ -23,48 +20,87 @@ const {
   {...htmlAttributes}
 >
   <Card
-    class:list={["feature-item", className]}
-    paddingHorizontal="lg"
-    paddingVertical="lg"
-    rounded
-    border
-    backgroundColor="base"
+    class:list={["feature-item", "step-card", className]}
+    paddingHorizontal="none"
+    paddingVertical="none"
+    rounded={false}
+    border={true}
   >
-    <Icon
-      class="feature-icon"
-      name={iconName}
-      size="lg"
-      color={iconColor}
-      background={iconBackground}
-      alignX="start"
-    />
-    <Heading
-      class="feature-title"
-      level="h3"
-      size="md"
-      alignX="start"
-      data-prop="title"
-    >
-      {title}
-    </Heading>
-    <Text
-      class="feature-description"
-      alignX="start"
-      data-prop="description"
-      text={description}
-    />
+    <div class="step-header">
+      <span class="step-number">{stepNumber}</span>
+      <span class="step-label">STEP</span>
+    </div>
+    <div class="step-content">
+      <Heading
+        class="feature-title"
+        level="h3"
+        size="md"
+        alignX="start"
+        data-prop="title"
+      >
+        {title}
+      </Heading>
+      <Text
+        class="feature-description"
+        alignX="start"
+        data-prop="description"
+        text={description}
+      />
+    </div>
   </Card>
 </GridItem>
 
 <style>
-  @layer page-sections {
+    :global(.step-card > .card-inner) {
+      display: flex !important;
+      flex-direction: column !important;
+      background-color: var(--color-bg) !important;
+    }
+
+    
+    .step-header {
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: var(--spacing-sm) var(--spacing-md);
+      border-bottom: 3px solid var(--color-border-strong);
+    }
+
+    [data-theme="dark"] .step-header {
+      background-color: #000;
+    }
+
+    .step-number {
+      font-size: 4rem;
+      font-weight: 800;
+      line-height: 1;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .step-label {
+      font-size: 0.875rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      color: #999;
+    }
+
+    .step-content {
+      padding: var(--spacing-md);
+      flex: 1;
+    }
+
     :global(.feature-title) {
-      margin-bottom: var(--spacing-sm);
-      margin-top: var(--spacing-sm);
+      margin-bottom: var(--spacing-sm) !important;
+      margin-top: 0 !important;
+      color: var(--color-brand) !important;
+      text-transform: uppercase;
     }
 
     :global(.feature-description) {
-      margin-top: 0;
+      margin-top: 0 !important;
     }
-  }
 </style>

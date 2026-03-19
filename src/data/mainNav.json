@@ -18,16 +18,5 @@
       "children": []
     }
   ],
-  "buttonSections": [
-    {
-      "_component": "building-blocks/core-elements/button",
-      "text": "Search",
-      "hideText": true,
-      "link": "/search/",
-      "iconName": "magnifying-glass",
-      "iconPosition": "before",
-      "variant": "ghost",
-      "size": "lg"
-    }
-  ]
+  "buttonSections": []
 }
