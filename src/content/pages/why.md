@@ -166,7 +166,7 @@ pageSections:
           Divyanshu founded Jugnoo with the belief that great design and great
           engineering should go hand in hand. He leads every project with a focus
           on performance, clarity, and results.
-        imageSource: /src/assets/images/component-docs/profile1.jpg
+        imageSource: /src/assets/images/component-docs/profile2.jpg
         imageAlt: Divyanshu Vashishth, Founder
       - name: Priya Sharma
         role: Lead Designer
@@ -174,16 +174,16 @@ pageSections:
           Priya brings brands to life through thoughtful visual storytelling.
           Her eye for detail and passion for clean interfaces ensures every
           project looks stunning and communicates clearly.
-        imageSource: /src/assets/images/component-docs/profile2.jpg
+        imageSource: /src/assets/images/component-docs/profile1.jpg
         imageAlt: Priya Sharma, Lead Designer
-      - name: Arjun Kapoor
+      - name: Archana Kapoor
         role: Full-Stack Developer
         bio: >-
-          Arjun is the engineering backbone of Jugnoo. He specializes in
+          Archana is the engineering backbone of Jugnoo. She specializes in
           building fast, scalable web applications that handle real-world traffic
           without breaking a sweat.
         imageSource: /src/assets/images/component-docs/profile3.jpg
-        imageAlt: Arjun Kapoor, Full-Stack Developer
+        imageAlt: Archana Kapoor, Full-Stack Developer
       - name: Neha Gupta
         role: Strategy & Growth
         bio: >-
