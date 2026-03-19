@@ -11,17 +11,9 @@ pageSections:
       grow using design, technology & AI.
     buttonSections:
       - _component: building-blocks/core-elements/button
-        text: Book A Call
+        text: Book A Call 📞
         hideText: false
         link: /contact/
-        iconName: ''
-        iconPosition: before
-        variant: primary
-        size: md
-      - _component: building-blocks/core-elements/button
-        text: See Case Studies
-        hideText: false
-        link: /work/
         iconName: ''
         iconPosition: before
         variant: secondary

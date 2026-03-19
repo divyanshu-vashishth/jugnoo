@@ -1,23 +1,22 @@
 ---
 _schema: default
-title: Why
-description: Learn why this Astro component starter was built and how it helps teams create fast, flexible static sites.
+title: Why Jugnoo
+description: Learn why Jugnoo is the go-to design and development studio for modern brands looking to grow online.
 pageSections:
   - _component: page-sections/heroes/hero-split
-    eyebrow:
-    heading: Why build an Astro component starter?
+    eyebrow: OUR STORY
+    heading: Why choose Jugnoo for your next project?
     subtext: >-
-      At CloudCannon, we're big fans of the static web. And we love what the
-      Astro team is building!
+      At Jugnoo, we believe that your website is your most powerful sales tool.
+      We combine bold design with solid engineering to help service businesses
+      and B2B brands modernize their digital presence and convert more visitors
+      into clients.
 
 
-      As more and more <a href="https://cloudcannon.com/partner-program/"
-      target="_blank" rel="noopener">partner agencies</a> are building client
-      sites with CloudCannon, we wanted to help out by providing the foundations
-      for Astro components that output static HTML and CSS, for the fastest
-      delivery possible —&nbsp;all unbranded and adaptable for any project.
+      We're not just another agency — we're a focused studio that pairs
+      creativity with strategy, so every pixel has a purpose.
     imageSource: /src/assets/images/component-docs/sunset.jpg
-    imageAlt: Sunset
+    imageAlt: Jugnoo Studio
     imageAspectRatio: portrait
     buttonSections: []
     reverse: true
@@ -31,35 +30,39 @@ pageSections:
     singleOpen: true
     openFirst: false
     items:
-      - title: How does the Component Starter work?
+      - title: What kind of businesses does Jugnoo work with?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              We give you [straightforward building blocks](/component-docs/)
-              without hiding anything behind layers of abstraction. You see
-              everything that's happening, and stay in control.
-      - title: What's included in the Component Starter?
+              We work primarily with service businesses, B2B brands, and founders
+              who want to modernize their digital presence. Whether you need a
+              brand-new website, a web application, or a complete redesign —
+              we've got you covered.
+      - title: What's included in a typical project?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Lean HTML, CSS, and small touches of vanilla JavaScript. No dead
-              weight, no surprise dependencies, just the pieces you actually
-              need to build great pages.
-      - title: How is the Component Starter so fast?
+              Every engagement starts with strategy. We dig into your goals,
+              audience, and competition before a single pixel is placed. Then we
+              design and build performant, scalable websites using the latest
+              web technologies — clean HTML, CSS, and JavaScript with no
+              unnecessary bloat.
+      - title: How fast can Jugnoo deliver?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Performance comes from keeping things lightweight. The framework
-              handles image optimization and responsive patterns so your site
-              stays quick without extra work.
-      - title: Can I customize the Component Starter?
+              Speed is one of our core values — both in delivery and in the
+              products we ship. Most projects are delivered in 4–8 weeks, and our
+              sites consistently score high on performance benchmarks because we
+              keep things lightweight by design.
+      - title: Can you work with my existing brand?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Every part of the Component Starter is meant to be opened, read,
-              and edited. You shape it to fit your project instead of working
-              around someone else's opinions. Start by [browsing the
-              components](/component-docs/) to see how they're set up!
+              Absolutely. We can work with your existing brand guidelines or help
+              you refine and evolve your visual identity. Our goal is always to
+              make your brand look its best online — consistent, credible, and
+              compelling.
     maxContentWidth: xl
     paddingHorizontal: xl
     paddingVertical: 4xl
@@ -71,7 +74,7 @@ pageSections:
       - _component: building-blocks/core-elements/spacer
         size: md
       - _component: building-blocks/core-elements/heading
-        text: Mix and match your components
+        text: Our process, your results
         level: h2
         size: default
         alignX: center
@@ -79,8 +82,8 @@ pageSections:
         iconPosition: before
       - _component: building-blocks/core-elements/text
         text: >-
-          With custom sections, you can create components for almost any use
-          case.
+          We follow a clear, structured approach so you always know what's
+          happening and why.
         alignX: center
     maxContentWidth: 2xl
     paddingHorizontal: md
@@ -95,61 +98,56 @@ pageSections:
     rounded: false
   - _component: page-sections/features/feature-slider
     slides:
-      - eyebrow: First slide demonstration
-        title: Welcome to the carousel component
+      - eyebrow: Step 01
+        title: Discovery & Strategy
         description: >-
-          This initial slide introduces visitors to the rotating content
-          display. You'll notice how the text hierarchy works with the eyebrow,
-          headline, and body copy creating clear visual distinction. The
-          component is designed to guide users through multiple messages without
-          overwhelming the page.
+          We start every project by understanding your business, your customers,
+          and your goals. This discovery phase shapes everything that follows —
+          from the sitemap to the visual style. No guesswork, no assumptions.
         imageSource: /src/assets/images/component-docs/quiet-street.jpg
-        imageAlt: High Performance
+        imageAlt: Discovery and Strategy
         minSplitWidth: 0
-      - eyebrow: Content transition example
-        title: Seamless navigation between slides
+      - eyebrow: Step 02
+        title: Design & Prototyping
         description: >-
-          As you move to the second position, observe how the previous content
-          gracefully exits while this new information appears. The navigation
-          controls below allow users to move at their own pace. This slide
-          exists purely to demonstrate the component's ability to handle
-          sequential content delivery.
+          Our designers craft high-fidelity mockups that reflect your brand and
+          speak to your audience. You review and provide feedback before we
+          write a single line of code — ensuring no surprises at launch.
         imageSource: /src/assets/images/component-docs/sheep.jpg
-        imageAlt: Easy Maintenance
+        imageAlt: Design and Prototyping
         minSplitWidth: 0
-      - eyebrow: Third position showcase
-        title: Maintaining consistent formatting
+      - eyebrow: Step 03
+        title: Development & Testing
         description: >-
-          By the third slide, the pattern becomes clear. Each rotation maintains
-          the same structural hierarchy and spacing, ensuring visual coherence
-          throughout the carousel. This consistency helps users understand what
-          to expect as they progress through the available content.
+          We build with clean, performant code that loads fast and works on
+          every device. Rigorous testing across browsers and screen sizes means
+          your site is polished and reliable from day one.
         imageSource: /src/assets/images/component-docs/castle.jpg
-        imageAlt: Move Faster
+        imageAlt: Development and Testing
         minSplitWidth: 300
-      - eyebrow: Final slide
-        title: Completing the carousel loop
+      - eyebrow: Step 04
+        title: Launch & Support
         description: >-
-          This fourth and final slide demonstrates how the component handles the
-          end of its sequence. Users can either cycle back to the beginning or
-          pause here to absorb the information. The carousel has now
-          successfully shown its capacity to present multiple content blocks in
-          a compact, navigable format.
+          When you're ready, we deploy and monitor your launch. We're available
+          for post-launch support so your site stays updated, secure, and
+          performing at its best long after the project wraps.
         imageSource: /src/assets/images/component-docs/dunedin-cliff.jpg
-        imageAlt: Long-Term Stability
+        imageAlt: Launch and Support
         minSplitWidth: 0
     colorScheme: dark
     backgroundColor: surface
-    eyebrow: Why Carousel
-    heading: Why this approach works
-    subtext: Highlight the core reasons in a simple, swipeable format.
+    eyebrow: How We Work
+    heading: A process built for results
+    subtext: Transparent, collaborative, and focused on your business outcomes.
     paddingVertical: 4xl
   - _component: page-sections/people/testimonial-section
     text: >-
-      This testimonial component has completely changed the way I present my
-      quotations on Astro sites. I couldn't be happier with the results.
-    authorName: John Convincingname
-    authorDescription: Founder
+      Working with Jugnoo was a game-changer for our brand. They didn't just
+      build us a website — they built us a growth engine. The attention to detail
+      and strategic thinking they brought to the table was unlike any studio
+      we'd worked with before.
+    authorName: Rohan Mehta
+    authorDescription: Founder, ScaleOps
     authorImage: /src/assets/images/component-docs/profile.jpg
     alignX: center
     maxContentWidth: xl
@@ -159,54 +157,49 @@ pageSections:
     backgroundColor: surface
   - _component: page-sections/people/team-grid
     eyebrow: Our Team
-    heading: Meet the people
-    subtext: We're a group of stock photography faces that fill out this team grid.
+    heading: The people behind Jugnoo
+    subtext: A small but mighty team of designers, developers, and strategists.
     teamMembers:
-      - name: Alex Smith
-        role: Lead Developer
+      - name: Divyanshu Vashishth
+        role: Founder & Lead Developer
         bio: >-
-          As a fictional representation of a real employee, I exist solely to
-          demonstrate how profile information appears in this layout. My
-          headshot is perfectly lit, and my description maintains the ideal
-          length for this component.
+          Divyanshu founded Jugnoo with the belief that great design and great
+          engineering should go hand in hand. He leads every project with a focus
+          on performance, clarity, and results.
         imageSource: /src/assets/images/component-docs/profile1.jpg
-        imageAlt: Alex Smith, CEO
-      - name: Tom Rodriguez
-        role: Chief Technology Officer
+        imageAlt: Divyanshu Vashishth, Founder
+      - name: Priya Sharma
+        role: Lead Designer
         bio: >-
-          I'm here to show how multiple team members look when displayed
-          together. My expertise includes being professionally photographed and
-          having exactly two sentences of biographical text.
+          Priya brings brands to life through thoughtful visual storytelling.
+          Her eye for detail and passion for clean interfaces ensures every
+          project looks stunning and communicates clearly.
         imageSource: /src/assets/images/component-docs/profile2.jpg
-        imageAlt: Tom Rodriguez, CTO
-      - name: Helen Kim
-        role: Head of Design
+        imageAlt: Priya Sharma, Lead Designer
+      - name: Arjun Kapoor
+        role: Full-Stack Developer
         bio: >-
-          I demonstrate how the component handles a third profile entry. My
-          carefully crafted placeholder text ensures the layout remains
-          consistent, regardless of whether you're viewing on a tablet or
-          desktop display.
+          Arjun is the engineering backbone of Jugnoo. He specializes in
+          building fast, scalable web applications that handle real-world traffic
+          without breaking a sweat.
         imageSource: /src/assets/images/component-docs/profile3.jpg
-        imageAlt: Helen Kim, Head of Design
-      - name: Emily Watson
-        role: Director of Operations
+        imageAlt: Arjun Kapoor, Full-Stack Developer
+      - name: Neha Gupta
+        role: Strategy & Growth
         bio: >-
-          I round out the team grid to demonstrate how the layout adapts to a
-          fourth member. My presence here confirms that the component scales
-          appropriately, maintaining visual balance across different screen
-          sizes.
+          Neha bridges the gap between design and business goals. She ensures
+          every project is aligned with our clients' growth objectives — from
+          conversion rate improvements to SEO strategy.
         imageSource: /src/assets/images/component-docs/profile4.jpg
-        imageAlt: Emily Watson, Director of Operations
+        imageAlt: Neha Gupta, Strategy & Growth
     colorScheme: dark
     backgroundColor: surface
     paddingVertical: 2xl
   - _component: page-sections/ctas/cta-form
-    heading: Form and function!
+    heading: Let's build something great together.
     subtext: >-
-      This is a sample form component, so it's not wired up with a target inbox
-      yet, but it's all ready to <a
-      href="https://cloudcannon.com/documentation/articles/getting-started-with-forms-on-cloudcannon/"
-      target="_blank" rel="noopener">configure with CloudCannon forms</a>.
+      Ready to take your digital presence to the next level? Fill in the form
+      and a member of our team will get back to you within one business day.
     formAction: ./
     formBlocks:
       - _component: building-blocks/forms/input
@@ -231,7 +224,7 @@ pageSections:
         hideText: false
         disabled: false
     imageSource: /src/assets/images/component-docs/castle.jpg
-    imageAlt: Get in touch
+    imageAlt: Get in touch with Jugnoo
     reverse: false
     colorScheme: dark
     backgroundColor: surface
